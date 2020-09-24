@@ -193,11 +193,12 @@ body {
   justify-content: center;
 }
 .main-header-container .main-header-content {
-  flex-basis: 50%;
+  flex-basis: 40%;
   flex-grow: 1;
   flex-shrink: 1;
-  max-width: 470px;
+  max-width: 300px;
   text-align: center;
+  margin-top: 175px;
 }
 .main-header-container .main-header-content .main-full-brand_image {
   width: 12rem;
@@ -571,6 +572,8 @@ Beginnning of Media
 
   .main-header-content h1 {
     font-size: 1.6rem;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
   .main-header-content p {
