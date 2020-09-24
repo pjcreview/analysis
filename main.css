@@ -40,8 +40,8 @@ body {
   padding: 0.5rem 1rem;
   font-family: inherit;
   font-size: 1.2rem;
-  background: #5bc0de;
-  border: 1px solid #5bc0de;
+  background: #3d0c54;
+  border: 1px solid #3d0c54;
   border-radius: 0.3rem;
   color: white;
   padding: 0.4rem;
@@ -51,7 +51,7 @@ body {
 
 .button:hover,
 .button:active {
-  color: #5bc0de;
+  color: #3d0c54;
   background: none;
 }
 /* End of Buttons */
