@@ -323,7 +323,7 @@ body {
 }
 .projects-figures figure a button:hover {
   background: none;
-  color: #5bc0de;
+  color: #215127;
 }
 
 .projects-figures figure:hover {
@@ -354,8 +354,8 @@ Section */
 }
 .skills-block p {
   font-family: inherit;
-  background-color: #5bc0de;
-  border: solid #5bc0de 1px;
+  background-color: #215127;
+  border: solid #215127 1px;
   padding: 1rem 1rem;
   text-align: center;
   transition: background-color 0.5s, color 0.5s;
@@ -363,7 +363,7 @@ Section */
 }
 
 .skills-block p:hover {
-  color: #5bc0de;
+  color: #215127;
   background-color: white;
 }
 
@@ -426,7 +426,7 @@ Section */
   transition: color 0.5s;
 }
 .footer-social-content a:hover {
-  color: #5bc0de;
+  color: #215127;
 }
 .footer-address-content a {
   display: inline-block;
@@ -465,9 +465,9 @@ Beginnning of Media
     text-decoration: none;
     padding: 0.25rem 6rem;
     background: none;
-    border: 1px solid #5bc0de;
+    border: 1px solid #215127;
     border-radius: 0.3rem;
-    color: #5bc0de;
+    color: #215127;
     font-family: "Oswald", sans-serif;
     font-size: 1.2rem;
     transition: background-color 0.5s, color 0.5s;
@@ -477,7 +477,7 @@ Beginnning of Media
   .main-header-side-content button:hover,
   .main-header-side-content button:active {
     color: white;
-    background: #5bc0de;
+    background: #215127;
   }
 
   .main-header-content {
@@ -500,7 +500,7 @@ Beginnning of Media
   }
 
   .summary-image {
-    border: 0.3rem solid #5bc0de;
+    border: 0.3rem solid #215127;
     border-radius: 0.5rem;
   }
 
