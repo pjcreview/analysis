@@ -173,7 +173,7 @@ body {
 /* Beginning Header Section */
 .main-header {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("images/greyYtBkgr.png") center/cover no-repeat border-box, #ffffff;
+    url("images/greyYtBkgr.png") center/cover no-repeat;
   height: 40vh;
   min-height: 35rem;
   padding-top: 15rem;
