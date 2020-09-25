@@ -534,6 +534,8 @@ Beginnning of Media
   }
   .footer-about-me {
     max-width: 30rem;
+    background-color: #757575;
+    padding: 4rem;
   }
 }
 @media (max-width: 30rem) {
