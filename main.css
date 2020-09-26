@@ -174,12 +174,12 @@ body {
 .main-header {
   background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
     url("images/greyYtBkgr.png") center/cover no-repeat;
-  height: 40vh;
-  min-height: 35rem;
-  padding-top: 15rem;
+  height: 30vh;
+  min-height: 25rem;
+  padding-top: 10rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -205,6 +205,10 @@ body {
 }
 .main-header-container .main-header-content h1 {
   font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .main-header-container .main-header-content a {
   display: block;
@@ -212,11 +216,6 @@ body {
 
 .main-header-side-content {
   display: none;
-}
-
-.arrow {
-  color: white;
-  transition: color 0.5s, transform 0.2s;
 }
 
 .fa-sort-down {
