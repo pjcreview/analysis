@@ -172,7 +172,7 @@ body {
 }
 /* Beginning Header Section */
 .main-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
     url("images/greyYtBkgr.png") center/cover no-repeat;
   height: 40vh;
   min-height: 35rem;
@@ -228,7 +228,7 @@ body {
   padding: 5rem;
   display: flex;
   justify-content: center;
-  background: #757575;
+  background: #cccccc;
   color: #ffffff;
 }
 
@@ -251,6 +251,7 @@ body {
 .summary-about-me h2 {
   margin: 0;
   font-family: "Oswald", sans-serif;
+  color: #ffffff;
   font-size: 1.6rem;
 }
 
