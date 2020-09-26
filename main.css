@@ -102,16 +102,16 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  position: fixed;
+  position: absolute;
   width: 100vw;
-  background: rgba(0, 0, 0, 0.3);
+  background: #cccccc;
   z-index: 100;
   justify-content: space-between;
   align-items: center;
   font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
-  padding: 0.75rem;
-  border-bottom: 1px solid white;
+  padding: 0.25rem;
+  border-bottom: 0px solid white;
 }
 
 .main-nav_items {
@@ -173,14 +173,15 @@ body {
 /* Beginning Header Section */
 .main-header {
   background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
-    url("images/greyYtBkgr.png") center/cover no-repeat;
-  height: 30vh;
+    url("images/greyYtBkgr5.png") center/cover no-repeat;
+  height: 80%;
+  width: auto;
   min-height: 25rem;
   padding-top: 10rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: .2rem;
+  padding-right: .2rem;
   color: black;
-  text-align: center;
+  text-align: bottom;
 }
 
 .main-header-container {
@@ -196,7 +197,7 @@ body {
   flex-basis: 40%;
   flex-grow: 1;
   flex-shrink: 1;
-  max-width: 300px;
+  max-width: 450px;
   text-align: center;
   margin-top: 15px;
 }
@@ -224,10 +225,10 @@ body {
 
 /* Beginning Summary Section */
 .summary {
-  padding: 5rem;
+  padding: 3rem;
   display: flex;
   justify-content: center;
-  background: #cccccc;
+  background: #757575;
   color: #ffffff;
 }
 
@@ -265,10 +266,11 @@ body {
   padding: 1rem;
   flex-grow: 1;
   flex-shrink: 1;
+  width: 200px;
 }
 
 .summary-image {
-  width: 256px;
+  width: 200px;
   padding: 1rem;
 }
 
@@ -406,7 +408,7 @@ Section */
 .main-footer {
   background-color: #215127;
   color: white;
-  padding: 3rem 1rem;
+  padding: 2rem .667rem;
   font-family: inherit;
 }
 .main-footer a {
@@ -444,7 +446,7 @@ Section */
 }
 .footer-rights {
   text-align: center;
-  /*margin-top: 5rem;*/
+  margin-top: 5rem;
 }
 /* End of Footer */
 
@@ -565,23 +567,24 @@ Beginnning of Media
 /* Landscape*/
 @media (max-height: 450px) {
   .main-header {
-    padding-top: 9rem;
+    padding-top: 2rem;
   }
 
   .main-header-content h1 {
     margin: 0;
+
   }
 }
-@media (max-height: 820px) and (max-width: 450px) {
+@media (max-height: 620px) and (max-width: 450px) {
   .main-header {
-    padding-top: 50%;
+    padding-top: 85%;
   }
 
   .main-header-content h1 {
     font-size: 1.6rem;
-    margin-right: 45px;
-    margin-left: 45px;
-    color: #757575;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #000;
     justify-content: center;
     align-items: center;
     text-align: center;
