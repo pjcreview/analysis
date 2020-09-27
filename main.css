@@ -173,15 +173,18 @@ body {
 /* Beginning Header Section */
 .main-header {
   background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
-    url("images/greyYtBkgr5.png") center/cover no-repeat;
-  height: 80%;
-  width: auto;
-  min-height: 25rem;
-  padding-top: 10rem;
-  padding-left: .2rem;
-  padding-right: .2rem;
+    url("images/grnBk3.png") center/cover no-repeat;
+  height: 20vw;
+  width: 35vw;
+  min-height: 5vw;
+  padding-top: 2.5vw;
+  margin-bottom: -2.5vw;
+  margin-left: auto;
+  margin-right: auto;
   color: black;
-  text-align: bottom;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-header-container {
@@ -235,8 +238,8 @@ body {
   padding: 3rem;
   display: flex;
   justify-content: center;
-  background: #757575;
-  color: #ffffff;
+  background: #ffffff;
+  color: #215127;
 }
 
 .summary-block {
@@ -244,7 +247,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-right: 2.5vw;
+  padding-left: 2.5vw;
   text-align: center;
+  background: #757575;
+  color: #ffffff;
 }
 
 .summary-about-me {
@@ -287,19 +294,21 @@ body {
   margin-top: 2.5rem;
   padding-top: 4.5rem;
   text-align: center;
+  background-color: #757575;
+  color: #ffffff
 }
 
 .projects-content h2 {
   margin: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .projects-content hr {
   width: 8rem;
   display: inline-block;
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   margin: 1.5rem 0;
 }
 
