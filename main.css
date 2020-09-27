@@ -173,7 +173,7 @@ body {
 /* Beginning Header Section */
 .main-header {
   background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
-    url("images/grnBk3.png") center/cover no-repeat;
+    url("https://privatejetcardreview.com/wp-content/uploads/2020/09/grnBk3.png") center/cover no-repeat;
   height: 20vw;
   width: 35vw;
   min-height: 5vw;
@@ -286,6 +286,7 @@ body {
 .summary-image {
   width: 200px;
   padding: 1rem;
+  
 }
 
 /* Beginning Projects Section */
