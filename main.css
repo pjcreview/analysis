@@ -146,12 +146,12 @@ body {
 
 .mobile-nav {
   width: 100vw;
-  position: fixed;
+  position: static;
   background: rgba(0, 0, 0, 0.3);
   font-family: "Oswald", sans-serif;
   font-size: 1.2rem;
-  padding: 0 0.75rem;
-  padding-top: 5rem;
+  padding: 0 0.5rem;
+  padding-top: 3rem;
   display: none;
 }
 .mobile-nav_items {
@@ -172,11 +172,11 @@ body {
 }
 /* Beginning Header Section */
 .main-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(https://privatejetcardreview.com/wp-content/uploads/2020/09/grnBk3.png) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(https://privatejetcardreview.com/wp-content/uploads/2020/09/pjcr1920.svg) center/cover no-repeat;
     height: 20vw;
     width: 35vw;
-    min-height: 45vw;
-    min-width: 100vw;
+    min-height: 25vw;
+    min-width: 45vw;
     padding-top: 2.5vw;
     margin-bottom: -2.5vw;
     margin-left: auto;
@@ -199,7 +199,7 @@ body {
   flex-basis: 40%;
   flex-grow: 1;
   flex-shrink: 1;
-  max-width: 450px;
+  max-width: 960px;
   text-align: center;
   margin-top: 15px;
 }
@@ -279,11 +279,11 @@ body {
   padding: 1rem;
   flex-grow: 1;
   flex-shrink: 1;
-  width: 200px;
+  width: 300px;
 }
 
 .summary-image {
-  width: 200px;
+  width: 300px;
   padding: 1rem;
   
 }
